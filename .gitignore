@@ -1,0 +1,29 @@
+# Local environments and editor files
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+
+# Experiment tracking, datasets, and generated outputs
+mlruns/
+<MLFLOW URI>/
+WESAD_TEST/
+WESAD_processed_28012023/
+outputs/
+results*/
+sklearn_output/
+.ipynb_checkpoints/
+
+# Trained models and serialized data
+*.pt
+*.pth
+*.joblib
+*.pkl
+*.pickle
+*.ckpt
